@@ -1,56 +1,44 @@
 # Daichi Zaha
 
-**AI Implementation Engineer** based in Fukuoka, Japan.
-Building production AI systems with Claude Code, Python, GCP, and BigQuery.
+AI engineer based in Fukuoka, Japan.
+Building production AI/LLM systems with Python, GCP, and modern AI tooling.
 
 ---
-
-## 🚀 What I Do
-
-- **AI Implementation Director** at [Panet Inc.](https://panet-inc.com/) — leading AI integration across the company
-- **Side Engagements** — AI model development, data pipelines, and LLM integration as a contractor
-- **Daily Driver** — Claude Code (Max plan) for end-to-end product development
 
 ## 🛠 Tech Stack
 
 ```
-AI / LLM       Claude Code, Gemini API, Claude API, PyTorch, Diffusers, Transformers, Florence-2
-Backend        Python (FastAPI, Gradio), Node.js (ESM)
-Frontend       React 19, Vite, TailwindCSS 4
-Cloud          GCP (Cloud Run, Cloud Functions, BigQuery, Cloud Scheduler)
+AI / LLM       Large Language Model APIs, RAG, prompt engineering, agentic workflows
+ML             PyTorch, Diffusers, Transformers, image segmentation, image-to-image pipelines
+Backend        Python (FastAPI), Node.js (ESM)
+Frontend       React, Vite, TailwindCSS
+Cloud          GCP — Cloud Run, Cloud Functions, BigQuery, Cloud Scheduler
 Data           BigQuery, Google Sheets, Google Apps Script (clasp)
 DevOps         GitHub Actions, pre-commit hooks, CI/CD, Docker
-Integrations   GA4, Google Search Console, LINE WORKS Bot (JWT), Notion API
+Integrations   GA4, Google Search Console, JWT-authenticated bot APIs, Notion API
 ```
 
-## 📦 Selected Production Work
+---
 
-### PaneRepo — SEO & Sales KPI Platform
-Multi-tenant analytics dashboard for 30+ stores. FastAPI + React + BigQuery + Gemini API on Cloud Run.
-Refactored a 16,807-line monolithic API into 13 modular routers. Built 38-item automated integrity test suite. Monthly ROI: 31x.
+## 💡 Areas of Focus
 
-### Project ARC — Ad Review RAG System
-Production RAG system for advertising review (Gemini + Cloud Run + vector index).
-**Cut review response time from 60 min → 5 min (12x), saving 400 hours/month.**
+- **AI implementation** — turning research-stage LLM ideas into production systems
+- **Data engineering** — BigQuery-centric ETL, daily collector pipelines, integrity testing
+- **AI-augmented development** — high-throughput delivery using modern AI coding assistants
+- **Production reliability** — pre-deploy checks, integrity tests, observability for AI pipelines
 
-### Qwen-Retouch — AI Image Editing Pipeline
-Production image editing tool built on Qwen-Image-Edit + Florence-2 segmentation + Diffusers/PyTorch.
-**Processing speed: 2m30s → 41s per image (70% improvement)** via GGUF quantization and Lightning LoRA.
+---
 
-### Automation Pipelines
-18+ scripts integrating Gemini API, Google Workspace, LINE WORKS Bot, and Notion. Multi-model fallback (Gemini 3.0 Flash → 2.5 Pro → 2.0 Flash) with API cost tracking.
+## 📦 Selected Work
 
-## 💼 Open to
+- **Multi-tenant analytics platform** — FastAPI + React + BigQuery dashboard with AI-driven diagnostics, integrating GA / GSC / vendor APIs across 30+ tenants. Refactored a monolithic API into a modular router architecture.
+- **Domain RAG system** — vector-indexed review assistant on Cloud Run, cutting human response time from ~1 hour to a few minutes.
+- **AI image editing pipeline** — production tool combining diffusion models with segmentation, quantization, and acceleration LoRAs for >2× throughput improvement.
+- **Automation pipelines** — 18+ scripts integrating LLM APIs, Google Workspace, and messaging bots with multi-model fallback and cost tracking.
 
-- **Contract / freelance** engagements in AI implementation, LLM integration, and data engineering
-- **Remote-first**, asynchronous collaboration over Slack / GitHub / Notion
-- Projects where Claude Code can deliver outsized productivity
+---
 
 ## 📫 Contact
 
 - Email: daichizaha1105@gmail.com
 - Location: Fukuoka, Japan
-
----
-
-*"いいソフトウェアを楽に作る" — leveraging Claude Code to ship production-quality systems with minimal friction.*
